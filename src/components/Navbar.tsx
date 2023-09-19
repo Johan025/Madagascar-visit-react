@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
 
         <div className="nav_toggle">
           <ul className="d-flex m-4 justify-content-end">
-            <li><a href=""><FontAwesomeIcon icon={faHome} className="icon"/> HOME</a></li>
+            <li><a href=""  className="active1"><FontAwesomeIcon icon={faHome} className="icon"/> HOME</a></li>
             <li><a href=""><FontAwesomeIcon icon={faCar} /> OUR TOURS</a></li>
             <li><a href=""> <FontAwesomeIcon icon={faNewspaper} /> BLOG</a></li>
             <li><a href=""> <FontAwesomeIcon icon={faBook} /> GUESTBOOK</a></li>

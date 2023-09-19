@@ -1,0 +1,53 @@
+.about{
+    width: 100%;
+
+     .row{
+         position: relative;
+         top: 12rem;
+
+       .profil{
+        margin-top: 7.7rem;
+        margin-left: -8%;
+             
+          img{
+              
+             width: 92%;
+             height: 24rem;
+             border-top-left-radius: 21px;
+             border-bottom-right-radius: 21px;
+          }
+       }
+
+
+       #title{
+
+            position: relative;
+            top: 1.5rem;
+            left: 2%;
+
+              h2{
+                font-size: 30px;
+                    color: $primaire;
+                    font-family: $font2;
+                    font-weight: bold;
+              }
+
+              h1{
+                font-size: 32px;
+                font-weight: 600;
+                font-family: $font1;
+                width: 100%;
+                color: $color2;
+                margin-left: 0.6%;
+                margin-top: 0.5rem;
+              }
+
+              p{
+                color: $color3;
+                font-size: 18px;
+                margin-left: 0.26rem;
+                width: 124%;
+              }
+       }
+    }
+}

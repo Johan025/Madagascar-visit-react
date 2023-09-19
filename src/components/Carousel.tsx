@@ -1,7 +1,8 @@
 import React from "react";
 import slide1 from "./../assets/couverture_1.jpg";
 import Zoom from "react-reveal/Zoom";
-import 
+import slide2 from "./../assets/ouest-.jpg";
+import slide3 from "./../assets/tsingy1.jpg"
 
 const Carousel = () => {
   return (
@@ -11,35 +12,35 @@ const Carousel = () => {
           <img src={slide1} className="d-block w-100" alt="..." />
           <div className="carousel-caption" id="caption">
             <Zoom>
-              <p>Madagascar Visit</p>
+              <p>Madagascar Visit Company</p>
 
-              <h1>Madagascar Visit for the lemur Catta </h1>
+              <h1>Madagascar Visit for the famous  lemur Catta </h1>
             
-            <button className="btn btn-warning">Book now</button>
+              <button className="btn">Book our tours</button>
             </Zoom>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src={slide2} className="d-block w-100" alt="..." />
           <div className="carousel-caption" id="caption">
             <Zoom>
-              <p>Madagascar Visit</p>
+              <p>Madagascar Visit Company</p>
 
-              <h1>Madagascar Visit for the lemur Catta </h1>
+              <h1>Madagascar Travel for the Alley of Baobab in the Weast </h1>
             
-            <button className="btn btn-warning">Book now</button>
+              <button className="btn">Book our tours</button>
             </Zoom>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img src={slide3} className="d-block w-100" alt="..." />
           <div className="carousel-caption" id="caption">
             <Zoom>
-              <p>Madagascar Visit</p>
+              <p>Madagascar Visit Company</p>
 
-              <h1>Madagascar Visit for the lemur Catta </h1>
+              <h1>Madagascar Trip to the Tsingy of Bemaraha </h1>
             
-            <button className="btn btn-warning">Book now</button>
+            <button className="btn">Book our tours</button>
             </Zoom>
           </div>
         </div>
