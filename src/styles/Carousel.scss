@@ -1,0 +1,53 @@
+#carousel{
+     position: relative;
+     top: 8rem;
+     height: 82.78vh;
+     width: 100%;
+     overflow: hidden;
+
+       #inner{
+        height: 82vh;
+        width: 100%;
+
+         
+
+          img{
+            height: 100vh;
+           width: 100%;
+           filter: brightness(82%);
+          }
+
+          #caption{
+              position: relative;
+              top: -31rem;
+              left: 0;
+
+                p{
+                    font-size: 34.2px;
+                    color: $primaire;
+                    font-family: $font2;
+                    font-weight: bold;
+                }
+
+                h1{
+                    font-size: 50.5px;
+                    font-weight: 600;
+                    font-family: $font1;
+                    width: 60%;
+                    margin-left: 20.6%;
+                }
+
+                button{
+                    color: $color1;
+                    margin-top: 2.17rem;
+                    padding: 11px;
+                    font-size: 18px;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                    font-weight: bold;
+                }
+          }  
+
+         
+       }
+}

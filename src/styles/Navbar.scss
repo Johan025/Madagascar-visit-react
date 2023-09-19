@@ -1,55 +1,142 @@
-.nav{
+@import './../settings.scss';
 
-       &_primary{
-             width:100%;
-             height: 3rem;
-             background-color: $secondary; 
-       }
+.nav {
+   position: fixed;
+   z-index: 85;
+   width: 100%;
 
-       &_secondary{
-        width:100%;
-        height: 5rem;
-        background-color: beige;
-       }
+   &_primary {
+      width: 100%;
+      height: 3rem;
+      background-color: $secondary;
 
-       &_toggle{
-         float: right;
-         justify-content: space-between;
-         align-items: center;
-         margin-right: 8%;
-         margin-top: 0.4rem;
+      .icones {
+         margin-top: 0.7rem;
+         gap: 30px;
 
-          ul{
-             gap: 40px;
-          
-             
 
-                li{
-                    text-transform: capitalize;
 
-                      a{
-                        text-decoration: none;
-                        font-weight: bold;
-                        color: $color2;
-                        text-transform: capitalize;
-                      }
+         .email {
 
-                }
 
-          }
+            h1 {
+               font-size: 19px;
+               color: #fff;
 
-       }
+            }
 
-       .version{
-        float: right;
-        position: relative;
-        left: 37.5%;
-        top: 1.95rem;
-          
-           h1{
-              font-size: 16px;
-              font-weight: bold;
-              color: $color2;
+            &_icone {
+               color: #fff;
+            }
+         }
+
+         .phone {
+
+            .icone {
+               color: #fff;
+            }
+
+
+            h1 {
+               font-size: 19px;
+               color: #fff;
+
+            }
+         }
+
+         .reseaux_sociaux {
+            margin-top: -0.2rem;
+            gap: 32px;
+
+            img {
+               margin-left: 16px;
+            }
+
+         }
+      }
+   }
+
+   &_secondary {
+      width: 100%;
+      height: 5rem;
+      background-color: beige;
+
+      .logo {
+         margin-top: 0.3rem;
+         margin-left: 3%;
+
+
+         img {
+            width: 68px;
+            height: 70px;
+         }
+
+         h1 {
+            font-size: calc(1.2rem + 1.2vw);
+            margin-top: 1rem;
+            font-weight: bold;
+            font-family: $font1;
+            color: $color2;
+
+            span{
+               color: $primaire;
+               font-weight: bold;
+               font-family: $font1;
            }
-       }
+         }
+      }
+   }
+
+   &_toggle {
+      float: right;
+      justify-content: space-between;
+      align-items: center;
+       position: relative;
+       left: -2%;
+      margin-top: -4.4rem;
+
+      ul {
+         gap: 35px;
+
+         li {
+            text-transform: capitalize;
+
+            a {
+               text-decoration: none;
+               font-weight: bold;
+               color: $color2;
+               text-transform: capitalize;
+
+                 .icon{
+                  font-size: 19.4px;
+                 }
+            }
+
+         }
+
+         .contact{
+            position: relative;
+            LEFT: 1.4%;
+         }
+
+      }
+
+   }
+
+   .version {
+      float: right;
+      position: relative;
+      left: 1.5%;
+      top: 0.2rem;
+
+
+      h1 {
+         font-size: 16px;
+         font-weight: bold;
+         color: $color2;
+
+
+         
+      }
+   }
 }

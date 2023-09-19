@@ -1,4 +1,4 @@
-$primary: #117527;
+$primaire: rgb(9, 185, 126);
 $secondary: rgb(224, 174, 34);
 $color1: #fff;
 $color2:rgb(58, 57, 57);
@@ -25,10 +25,11 @@ $font-principal:'Roboto', sans-serif;
   }
 
   *{
-    font-family: $font-principal;
+    font-family: 'Roboto', sans-serif;
     list-style: none;
     text-decoration: none;
-
+    
+  
   }
 
   html::-webkit-scrollbar {
