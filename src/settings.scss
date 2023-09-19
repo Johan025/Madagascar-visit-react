@@ -1,0 +1,45 @@
+$primary: #117527;
+$secondary: rgb(224, 174, 34);
+$color1: #fff;
+$color2:rgb(58, 57, 57);
+$font1:'Poppins', sans-serif;
+$font2: 'Josefin Sans', sans-serif;
+$font-principal:'Roboto', sans-serif;
+
+@mixin screen($breakpoint) {
+    @if $breakpoint == small {
+      @media (max-width: 767px) {
+        @content;
+      }
+    }
+    @else if $breakpoint == medium {
+      @media (min-width: 768px) and (max-width: 1023px) {
+        @content;
+      }
+    }
+    @else if $breakpoint == large {
+      @media (min-width: 1024px) {
+        @content;
+      }
+    }
+  }
+
+  *{
+    font-family: $font-principal;
+    list-style: none;
+    text-decoration: none;
+
+  }
+
+  html::-webkit-scrollbar {
+    background-color: white;
+    width: 7px;
+    scrollbar-width: thin;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(53, 44, 44, 0.555);
+    height: -5px;
+    width: 6px;
+    border-radius: 10px;
+  }
