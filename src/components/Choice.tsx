@@ -27,7 +27,7 @@ const Choice = () => {
 
             <div className="box_desc">
               <p>Madagascar Visit Company has an experimented Team member</p>
-              <button className="btn">Our tours</button>
+              <button className="btn">Book Our tours</button>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Choice = () => {
 
             <div className="box_desc">
               <p>Madagascar Visit Company proposed you many tours for your holidays in Madagascar the Great Island</p>
-              <button className="btn">Our tours</button>
+              <button className="btn">Book Our tours</button>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ const Choice = () => {
 
             <div className="box_desc">
               <p>Have an great and unforgetable Trip with Madagascar Visit Company</p>
-              <button className="btn">Our tours</button>
+              <button className="btn">Book Our tours</button>
             </div>
           </div>
         </div>

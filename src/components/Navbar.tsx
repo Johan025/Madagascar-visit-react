@@ -11,6 +11,7 @@ import React from "react";
  import tp from "./../assets/tripadvisor.png"
  import lk from "./../assets/linkedin (1).png"
  import logo from "./../assets/madagascar-visite-ico.png"
+ import {Link} from "react-router-dom";
 
 
 const Navbar: React.FC = () => {
@@ -51,11 +52,11 @@ const Navbar: React.FC = () => {
 
         <div className="nav_toggle">
           <ul className="d-flex m-4 justify-content-end">
-            <li><a href=""  className="active1"><FontAwesomeIcon icon={faHome} className="icon"/> HOME</a></li>
-            <li><a href=""><FontAwesomeIcon icon={faCar} /> OUR TOURS</a></li>
-            <li><a href=""> <FontAwesomeIcon icon={faNewspaper} /> BLOG</a></li>
-            <li><a href=""> <FontAwesomeIcon icon={faBook} /> GUESTBOOK</a></li>
-            <li className="contact"><a href=""><FontAwesomeIcon icon={faEnvelope} className="icon"/> CONTACT</a></li>
+            <li><Link to="/" className="a" id="active"><FontAwesomeIcon icon={faHome} className="icon"/> HOME</Link></li>
+            <li><Link to="/tours" className="a"><FontAwesomeIcon icon={faCar} className="icon"/> OUR TOURS</Link></li>
+            <li><Link to="/" className="a"><FontAwesomeIcon icon={faNewspaper} className="icon"/> BLOG</Link></li>
+            <li><Link to="/" className="a"><FontAwesomeIcon icon={faBook} className="icon"/> GUESTBOOK</Link></li>
+            <li className="contact"><Link to="/" className="a"><FontAwesomeIcon icon={faEnvelope} className="icon"/> CONTACT</Link></li>
           </ul>
         </div>
 

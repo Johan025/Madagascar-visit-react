@@ -1,0 +1,109 @@
+.travel{
+    position: relative;
+    top: 0rem;
+    width :100%;
+    height: 35rem;
+    overflow: hidden;
+     
+    #row1{
+        margin-top: 3rem;
+
+        h2{
+           font-size: 30px;
+               color: $primaire;
+               font-family: $font2;
+               font-weight: bold;
+         }
+
+         h1{
+           font-size: 32px;
+           font-weight: 600;
+           font-family: $font1;
+           width: 100%;
+           color: $color2;
+           margin-left: 0.6%;
+           margin-top: 0.5rem;
+         }
+      }
+
+      #row2{
+        width: 98%;
+        position: relative;
+        left: 3.8%;
+        top: 2.5rem;
+
+        .box{
+            background-color: #ffffff;
+            width: 96%;
+            height: 22rem;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 0 6px rgb(105, 104, 104);
+            overflow: hidden;
+
+               &_image{
+
+                 img{
+                    width: 110%;
+                    height: 22rem;
+                 }
+               }
+
+               &_content{
+                width: 100%;
+                height: 16rem;
+                background-color: rgba(240, 248, 255, 0.985);
+                position: relative;
+              
+                padding: 9px;
+
+                  .title{
+                    position: relative;
+                    top: 0.7rem;
+
+                  h1{
+                    font-size: 32px;
+                    font-family: $font2;
+                    font-weight: bold;
+                  }
+
+                  .lig{
+                    width: 50%;
+                    margin-left: 25%;
+                    height: 4.3px;
+                    border-radius: 5px;
+                    background-color: $primaire;
+                 }
+                }
+
+                .desc{
+                   position: relative;
+                   top: 2.1rem;
+
+                      p{
+                        font-size: 18px;
+                        color: $color3;
+                      }
+
+                      button{
+                        background-color: $secondary;
+                        color: #fff;
+                      }
+                }
+               }
+      }
+    }
+
+    .open{
+      position: relative;
+      top: -13.5rem;
+      transition: 0.4s ease;
+    }
+
+    .close{
+      position: relative;
+      transition: 0.4s ease;
+      top: -5.5rem;
+    }
+       
+}
