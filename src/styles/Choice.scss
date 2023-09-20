@@ -1,0 +1,86 @@
+.choice{
+      position: relative;
+      top: -1rem;
+      width: 100%;
+      height: 40rem;
+      overflow: hidden;
+
+       #row1{
+         margin-top: 3rem;
+
+         h2{
+            font-size: 30px;
+                color: $primaire;
+                font-family: $font2;
+                font-weight: bold;
+          }
+
+          h1{
+            font-size: 32px;
+            font-weight: 600;
+            font-family: $font1;
+            width: 100%;
+            color: $color2;
+            margin-left: 0.6%;
+            margin-top: 0.5rem;
+          }
+       }
+
+       #row2{
+        width: 98%;
+        position: relative;
+        left: 3%;
+        top: 2.5rem;
+           
+             .box{
+                background-color: #fff;
+                width: 100%;
+                height: 15rem;
+
+                  &_title{
+                    margin-top: 1.4rem;
+
+                     h1{
+                     font-size: 30px;
+                     font-family: $font2;
+                     font-weight: bold;
+                     }
+
+                     .lig{
+                        width: 50%;
+                        margin-left: 25%;
+                        height: 4.3px;
+                        border-radius: 5px;
+                        background-color: $primaire;
+                     }
+                  }
+
+                  &_image{
+
+                    img{
+                        width: 166px;
+                        height: 166px;
+                        border-radius: 50%;
+                    }
+                  }
+
+                  &_desc{
+                    margin-top: 1.1rem;
+
+                     p{
+                        font-size: 19px;
+                        color: $color3;
+                     }
+
+                     button{
+                        background-color: $secondary;
+                        padding: 5px;
+                        font-size: 17px;
+                        padding-left: 1rem;
+                        padding-right: 1rem;
+                        color: #fff;
+                     }
+                  }
+             }
+       }
+}

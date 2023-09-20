@@ -1,12 +1,11 @@
 import React from 'react';
-import Welcoming from './pages/Welcoming';
-import About from './pages/About';
+import About from './components/About';
+import Accueil from './pages/Anglais/Accueil';
 
 const App: React.FC = () => {
   return (
     <div>
-      <Welcoming/>
-      <About/>
+       <Accueil/>
     </div>
   );
 };
