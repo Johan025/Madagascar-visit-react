@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import travel_1 from "./../assets/SAINTE MARIE2.jpg";
 import travel_2 from "./../assets/famadihana (1).jpg";
 import travel_3 from "./../assets/couvertureNord.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Travel: React.FC = () => {
   const [up, setUp] = useState<boolean>(false);
@@ -61,7 +63,7 @@ const Travel: React.FC = () => {
                   You will discover a lot of species like whare in Nosy-Be and
                   Sainte-Marie
                 </p>
-                <button className="btn">Book Our tours</button>
+                <button className="btn">Book Our tours <FontAwesomeIcon icon={faArrowRight} id="icon" /></button>
               </div>
             </div>
           </div>
@@ -88,7 +90,7 @@ const Travel: React.FC = () => {
                   Trip to Madagascar to discover the culture and custom of Malagasy
                   People{" "}
                 </p>
-                <button className="btn">Book Our tours</button>
+                <button className="btn">Book Our tours <FontAwesomeIcon icon={faArrowRight} id="icon" /></button>
               </div>
             </div>
           </div>
@@ -115,7 +117,7 @@ const Travel: React.FC = () => {
                   Reserve your trip to see exotic beach of Madagascar like Nosy
                   Iranja Beach
                 </p>
-                <button className="btn">Book Our tours</button>
+                <button className="btn">Book Our tours <FontAwesomeIcon icon={faArrowRight} id="icon" /></button>
               </div>
             </div>
           </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import card1 from "./../assets/SAINTE MARIE1n.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Choice = () => {
   return (
@@ -27,7 +29,7 @@ const Choice = () => {
 
             <div className="box_desc">
               <p>Madagascar Visit Company has an experimented Team member</p>
-              <button className="btn">Book Our tours</button>
+              <button className="btn">Book Our tours <FontAwesomeIcon icon={faArrowRight} id="icon" /></button>
             </div>
           </div>
         </div>
@@ -45,7 +47,7 @@ const Choice = () => {
 
             <div className="box_desc">
               <p>Madagascar Visit Company proposed you many tours for your holidays in Madagascar the Great Island</p>
-              <button className="btn">Book Our tours</button>
+              <button className="btn">Book Our tours <FontAwesomeIcon icon={faArrowRight} id="icon" /></button>
             </div>
           </div>
         </div>
@@ -62,7 +64,7 @@ const Choice = () => {
 
             <div className="box_desc">
               <p>Have an great and unforgetable Trip with Madagascar Visit Company</p>
-              <button className="btn">Book Our tours</button>
+              <button className="btn">Book Our tours <FontAwesomeIcon icon={faArrowRight} id="icon" /></button>
             </div>
           </div>
         </div>

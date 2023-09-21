@@ -6,6 +6,8 @@ import est from "./../assets/SIFAKA.jpg";
 import aventures from "./../assets/Baobabs-andavadaoka.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {Link} from "react-router-dom";
 
 const Tours_content = () => {
   return (
@@ -40,7 +42,7 @@ const Tours_content = () => {
                       the Alley of Baobab in Morondava
                     </p>
                     <button className="btn text-center mt-2">
-                      More details
+                      More details      <FontAwesomeIcon icon={faArrowRight} id="icon" />
                     </button>
                   </div>
                 </div>
@@ -67,9 +69,9 @@ const Tours_content = () => {
                       Trip the South of Madagascar and discover some places in
                       the Big south like Isalo places
                     </p>
-                    <button className="btn text-center mt-2">
-                      More details
-                    </button>
+                    <Link to="/tours/south-anglais"><button className="btn text-center mt-2">
+                      More details <FontAwesomeIcon icon={faArrowRight} id="icon" />
+                    </button></Link>
                   </div>
                 </div>
               </div>
@@ -96,7 +98,7 @@ const Tours_content = () => {
                       some exotic places like Nosy-Be Island
                     </p>
                     <button className="btn text-center mt-2">
-                      More details
+                      More details <FontAwesomeIcon icon={faArrowRight} id="icon" />
                     </button>
                   </div>
                 </div>
@@ -123,7 +125,7 @@ const Tours_content = () => {
                        Travel to Madagascar to the east Part to discover  endemic species and places like  the lemur Sifaka 
                     </p>
                     <button className="btn text-center mt-2">
-                      More details
+                      More details <FontAwesomeIcon icon={faArrowRight} id="icon" />
                     </button>
                   </div>
                 </div>
@@ -147,10 +149,10 @@ const Tours_content = () => {
 
                   <div className="desc mt-3">
                     <p>
-                       Make a trip with the Adventures tour of Madagascar , you will visit exotic places and the looping tours
+                       Make a trip with the Adventures tour of Madagascar , you will visit exotic places 
                     </p>
                     <button className="btn text-center mt-2">
-                      More details
+                      More details <FontAwesomeIcon icon={faArrowRight} id="icon" />
                     </button>
                   </div>
                 </div>

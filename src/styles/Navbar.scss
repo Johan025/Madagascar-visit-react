@@ -65,7 +65,7 @@
 
       .logo {
          margin-top: 0.3rem;
-         margin-left: 2%;
+         margin-left: 4%;
 
 
          img {
@@ -74,9 +74,10 @@
          }
 
          h1 {
-            font-size: calc(1.2rem + 1.2vw);
+            font-size: calc(1.1rem + 1.2vw);
             margin-top: 1rem;
             font-weight: bold;
+            text-shadow: 0.5px 0.5px 2.7px (rgba(87, 87, 87, 0.5));
             font-family: $font1;
             color: $color2;
 
@@ -94,7 +95,7 @@
       justify-content: space-between;
       align-items: center;
        position: relative;
-       left: -1.5%;
+       left: -4%;
       margin-top: -4.4rem;
 
       ul {
@@ -106,6 +107,7 @@
             .a {
                text-decoration: none;
                font-weight: bold;
+               text-shadow: 0.5px 0.5px 1.4px (rgba(107, 107, 107, 0.5));
                color: $color2;
                width: 0;
                text-transform: capitalize;
@@ -143,7 +145,7 @@
             &::after {
                content: "";
                position: absolute;
-               width: 109%;
+               width: 103%;
                bottom: -7px; // Ajustez selon vos besoins (peut être différent de :hover)
                left: 0;
                height: 3.2px;
