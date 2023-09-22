@@ -15,10 +15,23 @@
             overflow-x: hidden;
             overflow-y: auto;
             width: 100%;
-            height: 100vh;
+            height: 80vh;
             border: 0.5px solid rgba(165, 162, 162, 0.685);
-            border-radius: 7px;
+            border-radius: 9px;
             background-color: #fcf5f5;
+
+            &::-webkit-scrollbar {
+                background-color: rgba(107, 48, 48, 0);
+                width: 5px;
+                scrollbar-width: thin;
+              }
+              
+              &::-webkit-scrollbar-thumb {
+                background-color: rgba(53, 44, 44, 0.555);
+                height: -5px;
+                width: 6px;
+                border-radius: 10px;
+              }
 
             #part-1 {
 
@@ -95,6 +108,7 @@
             #part-2 {
                 position: relative;
                 top: -1.7rem;
+                height: 85rem;
 
                 .choice {
                     margin-left: 0%;
@@ -137,8 +151,8 @@
 
                 .itinerary {
                     position: relative;
-                    top: -34rem;
-                    
+                    top: -37rem;
+
 
                     #row-princip {
 
@@ -149,7 +163,7 @@
 
                             .row-child {
                                 padding-bottom: -55rem;
-                              
+
 
                                 .image {
                                     margin-top: 1rem;
@@ -164,26 +178,26 @@
                                     }
                                 }
 
-                              
+
                                 .tour_details {
                                     width: 100%;
-                                 
+
                                     border-radius: 6px;
-                                    box-shadow: 0 0 3px rgba(37, 37, 37, 0.514);
-                                    border: 0.2px solid rgba(107, 107, 107, 0.466);
+                                  
+                                    border: 0.2px solid rgba(146, 145, 145, 0.349);
                                     padding: 1.7rem;
                                     padding-bottom: 0.8rem;
 
-                                      &_title{
-                                          
-                                         h1{
-                                             font-size: 25px;
-                                             font-family: $font1;
-                                             font-weight: bold;
-                                             color: $primaire;
-                                         }
+                                    &_title {
 
-                                         h2{
+                                        h1 {
+                                            font-size: 25px;
+                                            font-family: $font1;
+                                            font-weight: bold;
+                                            color: $primaire;
+                                        }
+
+                                        h2 {
                                             margin-top: 0.8rem;
                                             margin-left: 2%;
                                             font-size: 27px;
@@ -191,29 +205,33 @@
                                             font-weight: bold;
                                             color: $secondary;
 
-                                             #icon{
+                                            #icon {
                                                 position: relative;
                                                 left: -0.4rem;
-                                             }
-                                         }
+                                            }
+                                        }
 
-                                         .lig{
-                                             width: 100%;
-                                             height: 2px;
-                                             background-color: rgba(86, 87, 87, 0.377);
-                                             position: relative;
-                                             top: 0.5rem;
-                                         }
+                                        .lig {
+                                            width: 100%;
+                                            height: 2px;
+                                            background-color: rgba(128, 133, 133, 0.425);
+                                            position: relative;
+                                            top: 0.5rem;
+                                        }
 
-                                         p{
+                                        p {
                                             margin-top: 1.4rem;
                                             font-size: 18px;
-                                         }
-                                      }
+                                        }
+                                    }
                                 }
 
                             }
 
+                        }
+
+                        #dernier-col{
+                              padding-bottom: 6rem;
                         }
 
                     }
@@ -228,7 +246,7 @@
 
             background-color: brown;
             width: 100%;
-            height: 100vh;
+            height: 80vh;
         }
     }
 }
