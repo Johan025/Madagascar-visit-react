@@ -1,123 +1,125 @@
-.tours{
+.tours {
 
-      &_content{
-          position: relative;
-          top: 8rem;
+  &_content {
+    position: relative;
+    top: 8rem;
+    width: 100%;
+    height: 73rem;
+    overflow: hidden;
+
+    #row1 {
+
+      .title {
+        position: relative;
+        top: 1rem;
+        margin-left: 2rem;
+
+        h2 {
+          font-size: 30px;
+          color: $primaire;
+          font-family: $font2;
+          font-weight: bold;
+        }
+
+        h1 {
+          font-size: 32px;
+          font-weight: 600;
+          font-family: $font1;
           width: 100%;
-          height: 73rem;
-          overflow: hidden;
-
-             #row1{
-
-                     .title{
-                        position: relative;
-                        top: 1rem;
-                        margin-left: 2rem;
-
-                        h2{
-                            font-size: 30px;
-                                color: $primaire;
-                                font-family: $font2;
-                                font-weight: bold;
-                          }
-            
-                          h1{
-                            font-size: 32px;
-                            font-weight: 600;
-                            font-family: $font1;
-                            width: 100%;
-                            color: $color2;
-                            margin-left: 0%;
-                            margin-top: 0.5rem;
-                          }
-                     }
-             }
-
-             #row2{
-                width: 93%;
-                position: relative;
-                left: 4.7%;
-                top: 3.2rem;
-
-                    .box{
-                        background-color: #ffffff;
-                        border-radius: 10px;
-                        width: 100%;
-                        cursor: pointer;
-                        box-shadow: 0 0 6px rgba(105, 104, 104, 0.521);
-                        overflow: hidden;
-                        padding: 0;
-
-                          &_image{
-
-                             img{
-                                width: 100%;
-                                height: 15.1rem;;
-                             }
-                          }
-
-                          &_content{
-                            padding: 7px;
-                            position: relative;
-                            top: 0rem;
-
-                              .title{
-                                margin-left: -2%;
-                                padding-left: 67px;
-                                padding-right: 67px;
-                                position: relative;
-                                top: -2.2rem;
-                               
-                               
-                                     h1{
-
-                                        #icon{
-                                            position: relative;
-                                            left: -0.4rem;
-
-                                        }
-                                         font-size: calc(0.7rem + 0.7vw);
-                                         border-radius: 28px;
-                                         background-color: $primaire;
-                                         padding: 8.6px;
-                                         box-shadow: 0 0 7.5px rgba(56, 56, 56, 0.26);
-                                         color: #fff;
-                                        //  padding-left: -5rem;
-                                         font-family: $font1;
-                                         
-                                     }
-                              }
-
-                              .desc{
-                                position: relative;
-                                top: -1.6rem;
-                                padding: 5px;
-                                left: -0.6%;
-
-                                  p{
-                                    font-size: 18.6px;
-                                    color: $color3;
-                                    font-family: $font1;
-                                  }
-
-                                  button{
-                                     
-                                  
-                                     background-color: $secondary;
-                                     padding: 7.9px;
-                                     padding-left: 1.5rem;
-                                     padding-right: 1.5rem;
-                                     color: #fff;
-                                     font-size: 18.5px;
-                                     font-weight: bold;
-                                  }
-
-                                 
-                              }
-                          }
-                          
-                    }
-             }
-          
+          color: $color2;
+          margin-left: 0%;
+          margin-top: 0.5rem;
+        }
       }
+    }
+
+    #row2 {
+      width: 93%;
+      position: relative;
+      left: 4.7%;
+      top: 3.2rem;
+
+      .box {
+        background-color: #ffffff;
+        border-radius: 10px;
+        width: 100%;
+        cursor: pointer;
+        box-shadow: 0 0 6px rgba(105, 104, 104, 0.521);
+        overflow: hidden;
+        padding: 0;
+
+        &_image {
+
+          img {
+            width: 100%;
+            height: 15.1rem;
+            ;
+          }
+        }
+
+        &_content {
+          padding: 7px;
+          position: relative;
+          top: 0rem;
+
+          .title {
+            margin-left: -2%;
+            position: relative;
+            top: -2.2rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+
+
+            h1 {
+
+              #icon {
+                position: relative;
+                left: -0.4rem;
+
+              }
+
+              font-size: calc(0.7rem + 0.7vw);
+              border-radius: 28px;
+              background-color: $primaire;
+              padding: 8.6px;
+              box-shadow: 0 0 7.5px rgba(56, 56, 56, 0.26);
+              color: #fff;
+              font-family: $font1;
+              z-index: 23;
+
+            }
+          }
+
+          .desc {
+            position: relative;
+            top: -1.6rem;
+            padding: 5px;
+            left: -0.6%;
+
+            p {
+              font-size: 18.6px;
+              color: $color3;
+              font-family: $font1;
+            }
+
+            button {
+
+
+              background-color: $secondary;
+              padding: 7.9px;
+              padding-left: 1.5rem;
+              padding-right: 1.5rem;
+              color: #fff;
+              font-size: 18.5px;
+              font-weight: bold;
+            }
+
+
+          }
+        }
+
+      }
+    }
+
+  }
 }

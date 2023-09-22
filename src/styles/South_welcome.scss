@@ -1,6 +1,5 @@
 .south_welcome{
     width: 100%;
-    height: 150vh;
     overflow: hidden;
 
 }
@@ -84,16 +83,19 @@
               margin-left: 0.5%;
 
                 p{
-                  font-size: 19.2px;
+                  font-size: 19.4px;
                 }
             }
         }
 
         #tours{
-          margin-top: -3.45rem;
+          margin-top: -3.65rem;
           width: 94%;
           position: relative;
           left: 4%;
+
+
+          #row1{
            
             .title{
 
@@ -118,6 +120,101 @@
             }
             }
         }
+      }
+
+      #row2{
+        margin-top: 3.5rem;
+        margin-left: 1.5%;
+
+        .box{
+          background-color: #ffffff;
+          border-radius: 10px;
+          width: 100%;
+          cursor: pointer;
+          box-shadow: 0 0 6px rgba(105, 104, 104, 0.521);
+          overflow: hidden;
+          padding: 0;
+
+            &_image{
+
+               img{
+                  width: 100%;
+                  height: 15.1rem;
+                  overflow: hidden;
+                  z-index: 20;
+               }
+
+               .date{
+                position: relative;
+                top: -3rem;
+                left: 60%;
+               h1{
+
+                   background-color: $primaire;
+                   font-size: 19px;
+                   color: #fff;
+                   width: 45%;
+                   border-radius: 20px;
+                   padding: 8px;
+                   font-weight: bold;
+                   padding-left: -6.4rem;
+
+
+               }
+              }
+            }
+
+            &_content{
+              padding:0px;
+              position: relative;
+              top: -2.4rem;
+
+                .title1{
+                  margin-left: 5%;
+                  position: relative;
+                  top: 0.7rem;
+                 
+                 
+                       h1{
+
+                          #icon{
+                              position: relative;
+                              left: -0.4rem;
+
+                          }
+                           font-size: 22px;
+                           border-radius: 28px;
+                           color: $color3;
+                           font-family: $font1;
+                           font-weight: bold
+                       }
+                }
+
+                .desc{
+                  position: relative;
+                  top: 1.1rem;
+                  padding: 5px;
+                  left: 4.6%;
+
+
+                    button{
+                       
+                    
+                       background-color: $secondary;
+                       padding: 5.2px;
+                       padding-left: 1rem;
+                       padding-right: 1rem;
+                       color: #fff;
+                       font-size: 16.5px;
+                       font-weight: bold;
+                    }
+
+                   
+                }
+            }
+            
+      }
+      }
 }
 
   

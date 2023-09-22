@@ -38,7 +38,7 @@ const Tours_content = () => {
 
                   <div className="desc mt-3">
                     <p>
-                      Discover the Weast of Madagascar to enjoy many places like
+                      Trip to  the Weast of Madagascar , enjoy many places like
                       the Alley of Baobab in Morondava
                     </p>
                     <button className="btn text-center mt-2">
@@ -66,8 +66,8 @@ const Tours_content = () => {
 
                   <div className="desc mt-3">
                     <p>
-                      Trip the South of Madagascar and discover some places in
-                      the Big south like Isalo places
+                      Trip to the South of Madagascar and discover some exotic places in
+                      the Big south  like Isalo places
                     </p>
                     <Link to="/tours/south-anglais"><button className="btn text-center mt-2">
                       More details <FontAwesomeIcon icon={faArrowRight} id="icon" />
